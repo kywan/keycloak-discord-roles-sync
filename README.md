@@ -2,21 +2,21 @@ For use this you need to have [Discord Provider](https://github.com/wadahiro/key
 
 # Env Variables
 
-REALM=Master
+`REALM=Master`
 
-SERVER_URL=https://keycloak.yourUrl.com/auth
+`SERVER_URL=https://keycloak.yourUrl.com/auth`
 
-CLIENT_ID=my-client
+`CLIENT_ID=my-client`
 
-CLIENT_SECRET=mySecret
+`CLIENT_SECRET=mySecret`
 
-KEYCLOAK_USERNAME=my-admin
+`KEYCLOAK_USERNAME=my-admin`
 
-KEYCLOAK_PASSWORD=admin
+`KEYCLOAK_PASSWORD=admin`
 
-DISCORD_TOKEN=myToken
+`DISCORD_TOKEN=myToken`
 
-GUILD_ID=00000000000000
+`GUILD_ID=00000000000000`
 
 
 # Good to know !
