@@ -1,0 +1,1 @@
+Dont change the comment on the keycloak role, the comment is use to find role create by the script
