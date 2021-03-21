@@ -173,11 +173,13 @@ public class Main {
                         try {
                             RoleRepresentation testerRealmRole = realmResource.roles().get(roleName).toRepresentation();
                             log.debug(String.format("Role : %s found in realm", testerRealmRole.getName()));
+                            addAllUsersInRole(realmResource, realmResource.roles().get(roleName).toRepresentation(), client.getGuildMembers(Snowflake.of(GUILDID)));
                         } catch (NotFoundException e) {
                             createNewRole(realmResource, roleName);
                         }
 
                     });
+                    log.info("Startup finish");
 
                     log.debug("ReadyEvent Exit");
                 });
